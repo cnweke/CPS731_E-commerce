@@ -56,7 +56,6 @@ const Product = () => {
               <h1>{data.attributes.title}</h1>
               <span className="price">${data.attributes.price}</span>
               <p>{data.attributes.desc}</p>
-              // ... rest of your right div code
               <div className="quantity">
               <button
                 onClick={() =>
